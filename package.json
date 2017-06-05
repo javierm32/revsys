@@ -1,0 +1,33 @@
+{
+  "name": "platzom",
+  "version": "0.1.0",
+  "description": "",
+  "main": "dist/src/platzom.js",
+  "scripts": {
+    "build": "babel src/platzom.js -d dist",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/javierm32/revsys.git"
+  },
+  "keywords": [
+    "platzom",
+    "platzi",
+    "fundamentos",
+    "javascript",
+    "js"
+  ],
+  "author": "Javier <javier@revsys.com.mx>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/javierm32/revsys/issues"
+  },
+  "homepage": "https://github.com/javierm32/revsys#readme",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-env": "^1.5.1",
+    "chai": "^4.0.1",
+    "mocha": "^3.4.2"
+  }
+}
